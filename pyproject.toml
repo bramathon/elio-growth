@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "elio-growth"
+version = "0.1.0"
+description = "A notebook to track the growth of my child"
+authors = ["Bram Evert <bram.evert@gmail.com>"]
+readme = "README.md"
+packages = [{include = "elio_growth"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.1"
+jupyterlab = "^3.5.2"
+pandas = "^1.5.2"
+plotly = "^5.11.0"
+scipy = "^1.9.3"
+kaleido = "0.2.1"
+black = { version = "^22.12.0", extras = ["jupyter"]}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
