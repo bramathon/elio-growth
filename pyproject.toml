@@ -8,11 +8,11 @@ packages = [{include = "elio_growth"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-numpy = "^1.24.1"
-jupyterlab = "^3.5.2"
-pandas = "^1.5.2"
-plotly = "^5.11.0"
-scipy = "^1.9.3"
+numpy = "^1.24"
+jupyterlab = "^4.0"
+pandas = "^2.0"
+plotly = "^5.11"
+scipy = "^1.9"
 kaleido = "0.2.1"
 black = { version = "^22.12.0", extras = ["jupyter"]}
 
